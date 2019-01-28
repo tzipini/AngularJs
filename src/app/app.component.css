@@ -1,0 +1,40 @@
+
+.h1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 3px 2px rgb(49, 197, 61);
+}
+#style {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 3px 2px rgb(49, 197, 61);
+}
+.allPage{
+    text-align:center;
+    position: relative;
+    top:120px;
+}
+.inputStyle{
+    align-items: center;
+    position: relative;
+    top:150px;
+
+}
+.image{
+    height:40em; 
+    background-size:cover;
+    width:auto;
+    background-image:url(https://image.freepik.com/free-photo/network-connections_1048-7701.jpg);
+    background-position:50% 50%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+  #logo{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+ 

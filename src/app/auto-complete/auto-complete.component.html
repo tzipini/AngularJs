@@ -1,0 +1,21 @@
+<div class="allPage">
+    <h3 >
+        <img id="search" width="50" alt="search"  src="assets/img/searchIcon.png">
+      </h3>
+<span>
+  <input type="text" style="text-align:center" size="70" (keyup)="filter($event)" [(ngModel)]="inputText" /><!-- (ngModelChange)="filter()" [(ngModel)]="inputText" -->
+</span>
+<h3>
+    
+<ul>
+<li *ngFor="let item of emplyeeResult">
+  <div>{{item.Name}}</div>
+  <div>{{item.WorkTitle}}</div>
+  <div><img id="faceImg" img src={{item.ImageUrl}} width="40" ></div>
+</li>
+
+</ul></h3>
+
+</div>
+
+<!-- <img src="C:\Users\tzipi\newApp\src\app\images"> -->

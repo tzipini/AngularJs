@@ -1,0 +1,47 @@
+.div3{
+background-image: url()
+}
+
+span {
+      width: 40%;
+      height: 40px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 20px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      resize: none;
+      bottom: 0px;
+      right: 50px;
+      text-align: center;
+         
+  }
+ 
+  .allPage{
+    text-align:center;
+    position: relative;
+    
+}
+ul{
+    color: rgb(253, 247, 247);
+    width: 55%;
+    padding: 1px 50px;
+    height: 40px;
+    font-family: cursive;
+    block-size: inherit;
+       
+}
+
+#faceImg{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    border: 10px solid transparent;
+  }
+
+  #search{
+    position: unset;
+    right: 1000;
+    top: 50px;
+  }
